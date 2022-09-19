@@ -17,7 +17,7 @@ For this project, you will build a personal portfolio site, a static website whe
 
 ### Example Project
 
-![Portfolio website example](./resources/img/readme/personal-portfolio-website-screenshot.webp)
+![Portfolio website example](./src/img/readme/personal-portfolio-website-screenshot.webp)
 
 ### Project Objectives
 
