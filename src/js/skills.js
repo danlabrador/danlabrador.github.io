@@ -122,17 +122,17 @@ function addSkill(skill, logo, start, xp, edu=-1, badge1, badge2, badge3){
 }
 
 // skill, logo, xp, [month, year], edu (-1 if n/a), badge1, badge2, badge3
-addSkill('HTML 5', 'fab fa-html5', [6, 2021], 65, -1, 'https://www.codecademy.com/profiles/daniellabrador_/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7');
+addSkill('HTML 5', 'fab fa-html5', [6, 2021], 65, -1, 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7');
 
-addSkill('CSS 3', 'fab fa-css3-alt', [6, 2021], 55, 53, 'https://www.codecademy.com/profiles/daniellabrador_/certificates/9a5bb1fc45b4281af1fffec93b0aaf05', 'https://www.codecademy.com/profiles/daniellabrador_/certificates/3a62023b0054dc793edc0adecd715fd7', 'https://www.codecademy.com/profiles/daniellabrador_/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3?next=true');
+addSkill('CSS 3', 'fab fa-css3-alt', [6, 2021], 55, 53, 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/9a5bb1fc45b4281af1fffec93b0aaf05', 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/3a62023b0054dc793edc0adecd715fd7', 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/0a6884fad1dbf4afe5df084d2ec1e7c3?next=true');
 
-addSkill('Sass', 'fab fa-sass', [1, 0], 20, -1, 'https://www.codecademy.com/profiles/daniellabrador_/certificates/eb1ffda40f347629dcef6de33d3f9741'); // April 2018
+addSkill('Sass', 'fab fa-sass', [1, 0], 20, -1, 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/eb1ffda40f347629dcef6de33d3f9741'); // April 2018
 
-addSkill('JavaScript', 'fab fa-js', [6, 2021], 45, -1, 'https://www.codecademy.com/profiles/daniellabrador_/certificates/705dcb15de0da4dd9d9fc4f3274b430e', 'https://www.codecademy.com/profiles/daniellabrador_/certificates/f4276e8c08a3ba174ef0147deb0c3013', 'https://www.codecademy.com/profiles/daniellabrador_/certificates/512386fdc7f6c934f98b01e6afa8285a');
+addSkill('JavaScript', 'fab fa-js', [6, 2021], 45, -1, 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/705dcb15de0da4dd9d9fc4f3274b430e', 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/f4276e8c08a3ba174ef0147deb0c3013', 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/512386fdc7f6c934f98b01e6afa8285a');
 
-addSkill('jQuery', 'jquery.svg', [9, 2021], 30, -1, 'https://www.codecademy.com/profiles/daniellabrador_/certificates/0becf7c1cd2bd715f24331dddd23425a');
+addSkill('jQuery', 'jquery.svg', [9, 2021], 30, -1, 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/0becf7c1cd2bd715f24331dddd23425a');
 
-addSkill('React', 'fab fa-react', [9, 2021], 40, -1, 'https://www.codecademy.com/profiles/daniellabrador_/certificates/af00e5032d0a68cc84879983f5d8333b?next=true');
+addSkill('React', 'fab fa-react', [9, 2021], 40, -1, 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/af00e5032d0a68cc84879983f5d8333b?next=true');
 
 addSkill('Redux', 'redux.svg', [10, 2021], 20, 10);
 
@@ -144,11 +144,11 @@ addSkill('Node.js', 'fab fa-node-js', [7, 2021], 50, 17);
 
 // addSkill('Python 3', 'fab fa-python', [8, 2021], 20, 18);
 
-addSkill('C++', 'c++.svg', [9, 2021], 35, -1, 'https://www.codecademy.com/profiles/daniellabrador_/certificates/b74a2390dfc4127fa5d43fe147425ad0');
+addSkill('C++', 'c++.svg', [9, 2021], 35, -1, 'https://www.codecademy.com/profiles/itsdanlabrador/certificates/b74a2390dfc4127fa5d43fe147425ad0');
 
 addSkill('Git', 'fab fa-git-alt', [7, 2021], 40, 44);
 
-addSkill('GitHub', 'fab fa-github', [7, 2021], 20, -1, "https://www.codecademy.com/profiles/daniellabrador_/certificates/358e250fca144526a6b2934ff44fbc01");
+addSkill('GitHub', 'fab fa-github', [7, 2021], 20, -1, "https://www.codecademy.com/profiles/itsdanlabrador/certificates/358e250fca144526a6b2934ff44fbc01");
 
 addSkill('Photoshop', 'photoshop.svg', [7, 2013], 75, -1);
 
