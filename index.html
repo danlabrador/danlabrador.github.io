@@ -1,479 +1,481 @@
 <!DOCTYPE html>
-<html lang="en" xml:lang="en">
+<html lang="en">
 <head>
-    <title>Dan Labrador | Aspiring Back-End Engineer</title>
-    <link rel="stylesheet" type="text/css" href="./src/css/index.css">
-    <meta charset="UTF-8">
-    <meta name="keywords" content="bootcamp,coding bootcamp,backend engineer,IT QA specialist,QA,quality assurance">
-    <meta name="description" content="Dan here! I'm a IT QA Specialist transitioning to Back-End Engineer. I enjoy learning new skills and the challenges that come along with them.">
-    <meta name="author" content="Dan Labrador">
-    <link rel="apple-touch-icon" sizes="180x180" href="./src/img/logo/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./src/img/logo/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./src/img/logo/favicon-16x16.png">
-    <link rel="manifest" href="./src/img/logo/site.webmanifest">
-    <link rel="mask-icon" href="./src/img/logo/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="./src/img/logo/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="Daniel's Site">
-    <meta name="application-name" content="Daniel's Site">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="./src/img/logo/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ba3abb2535.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Info -->
+  <title>Dan Labrador | Back-End Engineer</title>
+  <meta name="author" content="Dan Labrador">
+  <meta name="keywords" content="portfolio,bootcamp,coding bootcamp,backend engineer,software engineer,swe">
+  <meta name="description" content="Dan here! I'm a IT QA Specialist transitioning to Software Engineer. I enjoy learning new skills and the challenges that come along with them.">
+  
+  <!-- Icons and App Name -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./src/images/logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/images/logo/favicon-16x16.png">
+  <link rel="manifest" href="./src/images/logo/site.webmanifest">
+  <link rel="mask-icon" href="./src/images/logo/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./src/images/logo/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Dan's Portfolio">
+  <meta name="application-name" content="Dan's Portfolio">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./src/images/logo/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./src/stylesheets/reset.css">
+  <link rel="stylesheet" href="./src/stylesheets/index.css">
 </head>
-<body>
-    
+<body class="body">
+  <div class="container">
+    <!-- West Box -->
+    <header class="header">
 
-<!----------------------------------------------------------------------------->
-    <!--------------  HEADER  ----------------->
-    <header>
-        <div class="nav-bar clear-nav-bar" id="nav-bar">
-            <div class="mobile-menu nav-bar-element" id="mobile-menu-open">
-                <span class="noselect">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><style>path {fill: #fff}</style><g fill="var(--color-default)"><path d="M8 14h7a1 1 0 000-2H8a1 1 0 000 2zM1 4h14a1 1 0 000-2H1a1 1 0 000 2zM1 9h14a1 1 0 000-2H1a1 1 0 000 2z"></path></g></svg>
-                </span>
-            </div>
-            <div class="main-navigation-items">
-                <h1 id="main-logo-container" class="main-logo-container nav-bar-element">
-                    <span class="main-logo-text noselect">Dan Labrador</span>
-                    <a href="http://daniellabrador.com" class = "main-logo-link">
-                        <img id="main-logo" src="./src/img/logo/SVG/logo-light.svg" alt="Brand logo" class="main-logo mobile">
-                    </a>
-                </h1>
+      <section class="hero">
+        <h1 class="hero__title hero__title--shine">Dan Labrador</h1>
+        <p class="hero__subtitle">Back-End Engineer</p>
+        <p class="hero__message">I build robust and scalable solutions to power the digital world.</p>
 
-                <nav class="desktop-nav" aria-label="Desktop menu">
-                    <ul>
-                        <a href="#about">
-                            <li>About</li>
-                        </a>
-                        <a href="#skills">
-                            <li>Skills</li>
-                        </a>
-                        <a href="#projects">
-                            <li>Projects</li>
-                        </a>
-                        <a href="#services">
-                            <li>Services</li>
-                        </a>
-                        <a href="#contact">
-                            <li>Contact</li>
-                        </a>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="social nav-bar-element">
-
-                <a href="https://linkedin.com/in/danlabrador">
-                    <div class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </div>
-                </a>
-
-                <a href="https://github.com/danlabrador">
-                    <div class="social-icon">
-                        <i class="fab fa-github"></i>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <!-- To prevent reference error, I have to create this class --><div class="clear-nav-bar" style="display:none"></div>
-        <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile menu">
-            <div class="mobile-nav-content-wrapper">
-                <div class="social">
-                    <div class="social-container">
-                        <a href="https://go.daniellabrador.com/instagram">
-                            <div class="social-icon">
-                                <i class="fab fa-instagram"></i>
-                            </div>
-                        </a>
-        
-                        <a href="https://linkedin.com/in/danlabrador">
-                            <div class="social-icon">
-                                <i class="fab fa-linkedin-in"></i>
-                            </div>
-                        </a>
-        
-                        <a href="https://github.com/danlabrador">
-                            <div class="social-icon">
-                                <i class="fab fa-github"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <hr>
-                <ul>
-                    <a class="mobile-link" href="#about">
-                        <li>About</li>
-                    </a>
-                    <a class="mobile-link" href="#skills">
-                        <li>Skills</li>
-                    </a>
-                    <a class="mobile-link" href="#projects">
-                        <li>Projects</li>
-                    </a>
-                    <a class="mobile-link" href="#services">
-                        <li>Services</li>
-                    </a>
-                    <a class="mobile-link" href="#contact">
-                        <li>Contact</li>
-                    </a>
-                </ul>
-                <div class="mobile-menu-close"><span class="noselect">Close</span><div id='mobile-menu-close'></div></div>
-            </div>
+        <!-- Navigation -->
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <span class="nav__indicator"></span>
+                <span class="nav__text">About</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <span class="nav__indicator"></span>
+                <span class="nav__text">Projects</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <span class="nav__indicator"></span>
+                <span class="nav__text">Experience</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#articles" class="nav__link">
+                <span class="nav__indicator"></span>
+                <span class="nav__text">Articles</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <span class="nav__indicator"></span>
+                <span class="nav__text">Contact</span>
+              </a>
+            </li>
+          </ul>
         </nav>
+      </section>
 
-<!----------------------------------------------------------------------------->
-    <!--------------  HOME  ----------------->        
-        <section id="home">
-            <div class="flex-container">
-                <div class="site-intro">
-                    <h2 id="site-intro-header-compressed">DAN<br>LABRADOR</h2>
-                    <h2 id="site-intro-header-stretched">DAN LABRADOR</h2>
-                    <p class="medium">Aspiring Back-End Engineer</p>
-                </div>
-                <div class="hero-buttons">
-                    <a href="#about" class="fancy-button">Learn More</a>
-                    <a href="#contact" class="fancy-button">Hire</a>
-                </div>
-            </div>
-        </section>
-        <div id="home-hero-divider"> <!-- Uneven Triangle --> </div>
+      <!-- Socials -->
+      <section class="header__socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a href="https://www.linkedin.com/in/danlabrador/" class="socials__link" target="_blank">
+              <svg class="socials__svg" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"">
+                <path class="socials__path" d="M0 1.79063C0 0.801563 0.821875 0 1.83594 0H23.1641C24.1781 0 25 0.801563 25 1.79063V23.2094C25 24.1984 24.1781 25 23.1641 25H1.83594C0.821875 25 0 24.1984 0 23.2094V1.79063ZM7.72344 20.9281V9.63906H3.97188V20.9281H7.72344ZM5.84844 8.09688C7.15625 8.09688 7.97031 7.23125 7.97031 6.14687C7.94687 5.03906 7.15781 4.19688 5.87344 4.19688C4.58906 4.19688 3.75 5.04063 3.75 6.14687C3.75 7.23125 4.56406 8.09688 5.82344 8.09688H5.84844ZM13.5172 20.9281V14.6234C13.5172 14.2859 13.5422 13.9484 13.6422 13.7078C13.9125 13.0344 14.5297 12.3359 15.5672 12.3359C16.925 12.3359 17.4672 13.3703 17.4672 14.8891V20.9281H21.2188V14.4531C21.2188 10.9844 19.3687 9.37187 16.9 9.37187C14.9094 9.37187 14.0172 10.4656 13.5172 11.2359V11.275H13.4922C13.5005 11.262 13.5088 11.2489 13.5172 11.2359V9.63906H9.76719C9.81406 10.6984 9.76719 20.9281 9.76719 20.9281H13.5172Z" fill="#A0A5B6E6"/>
+              </svg>              
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="https://www.github.com/danlabrador" class="socials__link" target="_blank">
+              <svg class="socials__svg"  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="socials__path" d="M12.5 0C5.59375 0 0 5.59375 0 12.5C0 18.0312 3.57812 22.7031 8.54688 24.3594C9.17188 24.4688 9.40625 24.0938 9.40625 23.7656C9.40625 23.4688 9.39062 22.4844 9.39062 21.4375C6.25 22.0156 5.4375 20.6719 5.1875 19.9688C5.04688 19.6094 4.4375 18.5 3.90625 18.2031C3.46875 17.9688 2.84375 17.3906 3.89062 17.375C4.875 17.3594 5.57812 18.2812 5.8125 18.6562C6.9375 20.5469 8.73438 20.0156 9.45312 19.6875C9.5625 18.875 9.89062 18.3281 10.25 18.0156C7.46875 17.7031 4.5625 16.625 4.5625 11.8438C4.5625 10.4844 5.04688 9.35938 5.84375 8.48438C5.71875 8.17188 5.28125 6.89062 5.96875 5.17188C5.96875 5.17188 7.01562 4.84375 9.40625 6.45312C10.4062 6.17188 11.4688 6.03125 12.5313 6.03125C13.5938 6.03125 14.6563 6.17188 15.6563 6.45312C18.0469 4.82812 19.0938 5.17188 19.0938 5.17188C19.7812 6.89062 19.3438 8.17188 19.2188 8.48438C20.0156 9.35938 20.5 10.4688 20.5 11.8438C20.5 16.6406 17.5781 17.7031 14.7969 18.0156C15.25 18.4062 15.6406 19.1562 15.6406 20.3281C15.6406 22 15.625 23.3438 15.625 23.7656C15.625 24.0938 15.8594 24.4844 16.4844 24.3594C18.966 23.5219 21.1224 21.9271 22.65 19.7996C24.1777 17.6721 24.9996 15.1191 25 12.5C25 5.59375 19.4062 0 12.5 0Z" fill="#A0A5B6E6"/>
+              </svg>              
+            </a>
+          </li>
+        </ul>
+      </section>
     </header>
-    
 
-<!----------------------------------------------------------------------------->
-<!--------------  HOME  ----------------->
-    <section id="about" class="col-grid">
-        <!-- Decorative Header -->
-        <div class="hdecor-box center col-span-12" id="home-header-about">
-            <div class="hdecor hdecor-left">
-                <div class="hdecor-long"></div>
-                <div class="hdecor-short"></div>
-            </div>
-            <!-- Remove .uppercase if needed -->
-            <h2>About Me</h2>
-            <div class="hdecor hdecor-right">
-                <div class="hdecor-long"></div>
-                <div class="hdecor-short"></div>
-            </div>
-        </div>
+    <!-- East Box -->
+    <main class="main">
 
-        <!-- Description -->
-        <p class="col-span-8-center" id="home-header-description">
-            Hi there! My name is Thony Danielle Labrador, and I work as an IT QA
-            Specialist. I have a keen eye for detail and possess expertise in
-            manual software testing, scope management, and code review. I work
-            primarily for a company called My Amazon Guy, an Amazon full-service
-            management agency.
+      <!-- About -->
+      <section class="section" id="about">
+        <h2 class="section__heading">Hey friends —</h2>
+        <p class="section__description">
+          I currently work as an IT QA Specialist at
+          <a href="https://myamazonguy.com" class="section__link" target="_blank">My Amazon Guy</a>.
+          We work largely with low-code development tools like Zapier and HubSpot to power our organization’s
+          operations. However, our team is also not shy in custom scripting, having code reviewed thousands of lines of
+          code since I started in June 2023.
+        </p>
+        <p class="section__description">
+          My main focus these days is spend my time learning full-stack development in
+          <a href="https://www.upliftcodecamp.com/courses" class="section__link" target="_blank">Uplift Code Camp</a>.
+          My goal is to gain comprehensive understanding of both front-end and back-end aspects of web applications.
+          This knowledge allows me to see the big picture and make informed decisions ultimately making me a more
+          capable back-end engineer.
+        </p>
+        <p class="section__description">
+          When I’m not on my computer, I usually help organize a community of players in
+          <a href="https://discord.gg/vistaridge" class="section__link" target="_blank">Clash of Clans</a>, watch sci-fi
+          shows, play table tennis and secretly tends to my alpacas.
+        </p>
+      </section>
 
-            <br /><br />
-
-            Currently, I am focused on learning full-stack web development.
-            My next goal is to become proficient in building robust and scalable
-            web applications using the <strong>MERN (MongoDB, Express, React,
-            Node) stack</strong>. Although I am constantly learning and
-            exploring these technologies, I am always open to new opportunities
-            to expand my knowledge and skills.
-            
-            <br /><br />
-
-            Throughout my journey, I am dedicated to continuous learning and
-            improvement. My ultimate aim is to make a positive impact to the
-            world through my work.
-            </p>
-
-        <!--- Milestones ---->
-        <div class="roadmap col-span-12" id="home-milestones">
-            <div class="milestone-box">
-                <p class="milestone milestone-company">My Amazon Guy</p>
-                <h3 class="milestone uppercase">IT QA Specialist</h3>
-                <p class="milestone milestone-type">June 2023 to Present</p>
-                <p class="milestone milestone-description">At My Amazon Guy, I focus on quality assurance and technology excellence. Our department's main focus is developing systems through low-code and no-code development platforms such as Zapier, HubSpot, PythonAnywhere, etc. I take part in ensuring that our systems are at par with the current company and IT industry standards. I also take part in the team that manages IT ticket scopes enhacing IT project management.</p>
-            </div>
-
-            <div class="milestone-box">
-                <p class="milestone milestone-company">Uplift Code Camp</p>
-                <h3 class="milestone uppercase"><a href="https://www.upliftcodecamp.com/courses" class="no-text-decoration">Full-Stack Web Development</a></h3>
-                <p class="milestone milestone-type">Coding Bootcamp (graduation: July 2024)</p>
-                <p class="milestone milestone-description">Build full-stack applications with RESTful APIs and database integrations using MERN Stack. Develop applications using OO and MVC design patterns. </p>
-            </div>
-
-            <div class="milestone-box">
-                <p class="milestone milestone-company">Ateneo de Davao University</p>
-                <h3 class="milestone uppercase"><a href="https://www.addu.edu.ph/computer-science/" class="no-text-decoration">Computer Science</a></h3>
-                <p class="milestone milestone-type">Education (graduation: May 2026)</p>
-                <p class="milestone milestone-description">Data Structures and Algorithms • Object-Oriented Programming • Event-Driven Programming • Information Management • Software Engineering 1 • Applications Development and Emerging Technologies • Introduction to Computing • Computer Programming • Discrete Structures • Basic Electronics • College Trigonometry • Calculus I • Calculus II • Linear Algebra • Probability and Statistics</p>
-            </div>
-            
-            <div class="milestone-box">
-                <p class="milestone milestone-company">Codecademy</p>
-                <h3 class="milestone uppercase"><a href="https://www.codecademy.com/career-journey/front-end-engineer" class="no-text-decoration">Front-End Engineer</a></h3>
-                <p class="milestone milestone-type">Career Switch / Education</p>
-                <p class="milestone milestone-description">HTML • CSS • JavaScript • Git and GitHub • Interactive Design • Responsive Design • Pair Programming • Test-Driven Development • Web Apps • React</p>
-            </div>
-
-            <div class="milestone-box">
-                <p class="milestone milestone-company">Ateneo de Davao University</p>
-                <h3 class="milestone uppercase">Accountancy</h3>
-                <p class="milestone milestone-type">Undergraduate (not completed)</p>
-                <p class="milestone milestone-description">Basic Financial Accounting and Reporting • Conceptual Framework and Accounting Standards • IT Software and Tools for Business • Cost Accounting • Managerial Economics • Financial Markets and Institutions • Statistics with Software Application • Auditing and Assurance Principles • Accounting Information Systems • Law on Obligations and Contracts • Economic Development</p>
-            </div>
-            
-            <div class="milestone-box">
-                <p class="milestone milestone-company">Ateneo de Davao University</p>
-                <h3 class="milestone uppercase">Accountancy, Business<br>and Management (ABM)</h3>
-                <p class="milestone milestone-type">High School - Top 1 ABM Student</p>
-                <p class="milestone milestone-description">Organization and Management • Fundamentals of Accountancy, Business and Management • Principles of Marketing • Business Math • Business Finance • Business Ethics and Social Responsibility • Business Enterprise Simulation • Applied Economics</p>
-            </div>
-
-            <a id="milestone-button" href="https://drive.google.com/file/d/1-AZKlMc06AQ_3Tle9Avlr8UwLQzi5zfs/view?usp=sharing"><button class="uppercase"><i class="fas fa-file-pdf"></i> <span>Resume</span></button></a>
-        </div>
-    </section>
-
-    <!----------------------------------------------------------------------------->
-        <!--------------  SKILLS  ----------------->
-    <section id="skills">
-
-        <!-- Header 2 -->
-        <div class="col-grid">
-            <div class="hdecor-box col-span-12">
-                <div class="hdecor hdecor-left">
-                    <div class="hdecor-long"></div>
-                    <div class="hdecor-short"></div>
-                </div>
-                <!-- Remove .uppercase if needed -->
-                <h2 class="uppercase">Skills</h2>
-                <div class="hdecor hdecor-right">
-                    <div class="hdecor-long"></div>
-                    <div class="hdecor-short"></div>
-                </div>
-            </div>
-        </div>
+      <!-- Skills -->
+      <section class="section section--column" id="skills">
+        <h2 class="section__heading">Technical Skills</h2>
         
-        <div class="skills-container col-grid" id="skill-generator">
-            <!-- Use skills.js -->
-        </div>
-    </section>
+        <ul class="section__list">
 
-    <!----------------------------------------------------------------------------->
-        <!--------------  CODING PROJECTS  ----------------->
-    <section id="projects">
-
-        <!-- Header 2 -->
-        <div class="col-grid">
-            <div class="hdecor-box col-span-12">
-                <div class="hdecor hdecor-left">
-                    <div class="hdecor-long"></div>
-                    <div class="hdecor-short"></div>
-                </div>
-                <!-- Remove .uppercase if needed -->
-                <h2 class="uppercase">Coding Projects</h2>
-                <div class="hdecor hdecor-right">
-                    <div class="hdecor-long"></div>
-                    <div class="hdecor-short"></div>
-                </div>
+          <!-- Stack -->
+          <li class="section__item section__item--cursor-default">
+            <div class="section__item-icon-container">
+              <img class="section__item-icon" src="./src/images/index/skills-stack-dark.png" alt="technology stack icon" /></div>
+            <div class="section__item-content">
+              <h3 class="section__item-title section__item-title--small">PERN / MERN Stack</h3>
+              <p class="section__description">
+                I am proficient in building full-stack applications using PostgreSQL, MongoDB, Express.js, React.js, and
+                Node.js.
+              </p>
             </div>
-        </div>
+          </li>
 
-        <div class="projects-container col-grid">
+          <!-- Software Testing -->
+          <li class="section__item section__item--cursor-default">
+            <div class="section__item-icon-container">
+              <img class="section__item-icon" src="./src/images/index/skills-test-dark.png" alt="software testing icon"/></div>
+            <div class="section__item-content">
+              <h3 class="section__item-title section__item-title--small">Software Testing</h3>
+              <p class="section__description">
+                I have 1+ year of industry experience in manual software testing.
+              </p>
+            </div>
+          </li>
 
-            <a href="https://daniellabrador-jammming.surge.sh" class="no-text-decoration col-span-6">
-                <figure class="project">
-                    <div class="project-image" style="background-image: url(./src/img/index/projects/jammming.svg);">
-                    </div>
-                    <figcaption class="project-caption">
-                        <h3 class="project-title">Jammming</h3>
-                        <p class="project-description">Jammming allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.</p>
-                        <p class="project-skills">React, Spotify API</p>
-                    </figcaption>
-                </figure>
-            </a>
+          <!-- Data Structures and Algorithms -->
+          <li class="section__item section__item--cursor-default">
+            <div class="section__item-icon-container">
+              <img class="section__item-icon" src="./src/images/index/skills-structures-dark.png" alt="graph icon"/></div>
+            <div class="section__item-content">
+              <h3 class="section__item-title section__item-title--small">Data Structures and Algorithms</h3>
+              <p class="section__description">
+                I am fluent in core computer science concepts and writing efficient solutions.
+              </p>
+            </div>
+          </li>
+
+          <!-- Collaboration and Version Control -->
+          <li class="section__item section__item--cursor-default">
+            <div class="section__item-icon-container">
+              <img class="section__item-icon" src="./src/images/index/skills-git-dark.png" alt="git icon"/></div>
+            <div class="section__item-content">
+              <h3 class="section__item-title section__item-title--small">Collaboration and Version Control</h3>
+              <p class="section__description">
+                I have experience working in teams using Git, GitHub, and GitLab.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="section section--column" id="projects">
+        <h2 class="section__heading">Projects</h2>
+
+        <ul class="section__list">
+          <!-- Spotify Music Previews -->
+          <a class="section__item-link" href="https://daniellabrador-codecademy-router-tutorial.netlify.app/" target="_blank">
+            <li class="section__item section__item--reverse">
+              <div class="section__item-thumbnail-container">
+                <img class="section__item-thumbnail" src="./src/images/index/projects-spotify-music-previews.jpg" alt="close up shot of phone with Spotify app opened" class="section__item-thumbnail">
+              </div>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  Spotify Music Previews
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  Spotify Music Previews shows a lit of locally and globally featured music from Spotify and display the preview audio clip of each song. 
+                </p>
+              </div>
+            </li>
+          </a>
+
+          <!-- Jammming -->
+          <a class="section__item-link" href="https://daniellabrador-jammming.surge.sh/" target="_blank">
+            <li class="section__item section__item--reverse">
+              <div class="section__item-thumbnail-container">
+                <img class="section__item-thumbnail" src="./src/images/index/projects-jammming.jpg" alt="screenshot of my portfolio website's first version" class="section__item-thumbnail">
+              </div>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  Jammming
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  Jammming allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
+                </p>
+              </div>
+            </li>
+          </a>
+
+          <!-- daniellabrador.com (v1) -->
+          <a class="section__item-link" href="https://v1.daniellabrador.com" target="_blank">
+            <li class="section__item section__item--reverse">
+              <div class="section__item-thumbnail-container">
+                <img class="section__item-thumbnail" src="./src/images/index/projects-daniellabrador.com-v1.jpg" alt="screenshot of my portfolio website's first version" class="section__item-thumbnail">
+              </div>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  daniellabrador.com (v1)
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  This was my first attempt at creating a personal website that was made last 2021. It was built using HTML, CSS, and JavaScript.
+                </p>
+              </div>
+            </li>
+          </a>
+        </ul>
+        <a href="https://github.com/danlabrador?tab=repositories" class="section__item-more-items-link" target="_blank">
+          See more on GitHub
+          <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+            <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </section>
+
+      <!-- Experience -->
+      <section class="section section--column" id="experience">
+        <h2 class="section__heading">Experience</h2>
+        <ul class="section__list">
+
+          <!-- IT Specialist 1 -->
+          <a href="https://myamazonguy.com" target="_blank" class="section__item-link">
+            <li class="section__item">
+              <div class="section__item-date-container">
+                <p class="section__item-date">
+                  <span class="section__item-date-from">Feb&nbsp;2024</span>
+                  —
+                  <span class="section__item-date-to">Present</span>
+                </p>
+              </div>
+
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  IT Specialist 1 ∙ My Amazon Guy
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  My focus is on software development and technology innovation. I play a key role in
+                  ensuring that our systems are efficient, scalable, and meet both our company's needs and industry
+                  standards. I also contribute to the creation of comprehensive documentation detailing our systems
+                  development processes and best practices.
+                </p>
+              </div>
+            </li>
+          </a>
+
+          <!-- IT QA Specialist 1 -->
+          <a href="https://myamazonguy.com" target="_blank" class="section__item-link">
+            <li class="section__item">
+              <div class="section__item-date-container">
+                <p class="section__item-date">
+                  <span class="section__item-date-from">Oct&nbsp;2023</span>
+                  —
+                  <span class="section__item-date-to">Feb&nbsp;2024</span>
+                </p>
+              </div>
             
-            <a href="https://daniellabrador-codecademy-router-tutorial.netlify.app/" class="no-text-decoration col-span-6">
-                <figure class="project">
-                    <div class="project-image" style="background-image: url(./src/img/index/projects/music-previews.jpg)">
-                    </div>
-                    <figcaption class="project-caption">
-                        <h3 class="project-title">Spotify Music Previews</h3>
-                        <p class="project-description">Spotify Music Previews shows a list of featured music from Spotify and display the preview audio clip of each song.</p>
-                        <p class="project-skills">React, Spotify API</p>
-                    </figcaption>
-                </figure>
-            </a>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  IT QA Specialist 1 ∙ My Amazon Guy
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  At My Amazon Guy, I focus on quality assurance and technology excellence. Our department's main focus is
+                  developing systems through low-code and no-code development platforms such as Zapier, HubSpot,
+                  PythonAnywhere, etc. I take part in ensuring that our systems are at par with the current company and IT
+                  industry standards. I also authored a series of SOP’s about the company’s end-to-end IT QA process.
+                </p>
+              </div>
+            </li>
+          </a>
 
-            <a href="https://github.com/danlabrador/univ-simple-pos-system" class="no-text-decoration col-span-6">
-                <figure class="project">
-                    <div class="project-image" style="background-image: url(./src/img/index/projects/coffee.png);">
-                    </div>
-                    <figcaption class="project-caption">
-                        <h3 class="project-title">Coffee Canvas</h3>
-                        <p class="project-description">A simple Netbeans-based full-stack Point of Sale (POS) system that manages product inventory, sales transactions, and stock levels within a retail environment.</p>
-                        <p class="project-skills">Java, Swing UI</p>
-                    </figcaption>
-                </figure>
-            </a>
-            
-            <a href="https://github.com/danlabrador/codecademy-js-find_your_hat" class="no-text-decoration col-span-6">
-                <figure class="project">
-                    <div class="project-image" style="background-image: url(./src/img/index/projects/cap.jpg)">
-                    </div>
-                    <figcaption class="project-caption">
-                        <h3 class="project-title">Find Your Hat</h3>
-                        <p class="project-description">The Find Your Hat program is an interactive terminal game. The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field.</p>
-                        <p class="project-skills">Node</p>
-                    </figcaption>
-                </figure>
-            </a>
-            
-            <a href="https://github.com/danlabrador/univ-dijkstras-algorithm" class="no-text-decoration col-span-6">
-                <figure class="project">
-                    <div class="project-image" style="background-image: url(./src/img/index/projects/map.jpg)">
-                    </div>
-                    <figcaption class="project-caption">
-                        <h3 class="project-title">Dijkstra's Algorithm</h3>
-                        <p class="project-description">This Java project implements a graph data structure with support for both directed and undirected graphs. It includes functionalities to create graphs from text files, add vertices and edges, and apply Dijkstra's algorithm to find the shortest paths in the graph.</p>
-                        <p class="project-skills">Java</p>
-                    </figcaption>
-                </figure>
-            </a>
-
-            <a href="https://danlabrador.github.io/codecademy-js-wanderlust/" class="no-text-decoration col-span-6">
-                <figure class="project">
-                    <div class="project-image" style="background-image: url(./src/img/index/projects/wanderlust.jpg);">
-                    </div>
-                    <figcaption class="project-caption">
-                        <h3 class="project-title">Wanderlust</h3>
-                        <p class="project-description">Wanderlust returns the weather and the possible destinations depending on the location the user requested.</p>
-                        <p class="project-skills">JavaScript, Foursquare API, OpenWeather API</p>
-                    </figcaption>
-                </figure>
-            </a>
-        </div>
-
-        <div class="col-grid">
-            <a class="col-span-12" id="home-projects-more" href="https://github.com/danlabrador?tab=repositories"><i class="fab fa-github"></i> More GitHub repositories <i class="fas fa-chevron-right"></i></a>
-        </div>
-    </section>
-
-    
-    <!----------------------------------------------------------------------------->
-        <!--------------  SERVICES  ----------------->
-    <section id="services">
-
-        <!-- Header 2 -->
-        <div class="col-grid">
-            <div class="hdecor-box col-span-12">
-                <div class="hdecor hdecor-left">
-                    <div class="hdecor-long"></div>
-                    <div class="hdecor-short"></div>
-                </div>
-                <!-- Remove .uppercase if needed -->
-                <h2 class="uppercase">Services</h2>
-                <div class="hdecor hdecor-right">
-                    <div class="hdecor-long"></div>
-                    <div class="hdecor-short"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="services-container col-grid">
-                
-            <div class="service-box col-span-4">
-                <i class="fab fa-wordpress"></i>
-                <h3 class="service-title">WordPress</h3>
-                <p class="service-description">Content Management Systems (CMS) such as WordPress can be a perfect for varying types of web presence, from a portfolio website where creative individuals can showcase their best work to a member website where one can build communities.</p>
-            </div>
-            
-            <div class="service-box col-span-4">
-                <i class="fas fa-laptop-code"></i>
-                <h3 class="service-title">Creative Web Design</h3>
-                <p class="service-description">I take your abstract ideas and represent them on the web in a way that will be useful for your end users or clients. I design sites using accepted current web standards so they are usable, easy to navigate, simple to maintain and as future-proof as possible.</p>
-            </div>
-            
-            <div class="service-box col-span-4">
-                <i class="fas fa-tablet-alt"></i>
-                <h3 class="service-title">Responsive Web Development</h3>
-                <p class="service-description">Creating websites that are responsive means making web pages look good on all devices, from mobile to large monitors.</p>
-            </div>
-        </div>
-
-
-        <div id="home-services-divider"> <!-- Triangle --> </div>
-    </section>
-
-
-
-    <footer>
-        <section class="contact-container col-grid" id="contact">
-            <div class="form-container col-span-12">
-                <form id="contact-form" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xyylozwk" method="post">
-                    <div class="form-row">
-                        <div class="form-field">
-                            <label for="full-name">Name <span>*</span></label>
-                            <input type="text" name="name" id="full-name" placeholder="First and Last Name" required="">
-                        </div>
-                    </div>
-                    
-                    <div class="form-row">
-                        <div class="form-field" id="form-phone">
-                            <label for="phone">Phone Number</label>
-                            <input type="phone" name="phone" id="phone" placeholder="(555) 555-5555">
-                        </div>
-
-                        <div class="form-field" id="form-email">
-                            <label for="email-address">Email Address <span>*</span></label>
-                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="form-field">
-                            <label for="email-subject">I would like to <span>*</span></label>
-                            <select id="email-subject" name="email-subject" required="">
-                                <option value="" selected="" disabled="" class="option-default" hidden=""></option>
-                                <option value="[JOB] I would like to invite you to apply for a job vacancy.">Invite you to apply for a job vacancy</option>
-                                <option value="[JOB] I would like to hire you for a project.">Hire you for a project</option>
-                                <option value="[JOB] I would like to find more about your services.">Find more about your services</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="form-field">
-                            <label for="message">Message <span>*</span></label>
-                            <textarea rows="6" resize="none" name="message" id="message" placeholder="Share something neat here." required=""></textarea>
-                        </div>
-                    </div>
-
-                    <div class="">
-                        <input id="submit" type="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
-        </section>
-
+          <!-- IT QA Specialist Intern -->
+          <a href="https://myamazonguy.com" target="_blank" class="section__item-link">
+            <li class="section__item">
+              <div class="section__item-date-container">
+                <p class="section__item-date">
+                  <span class="section__item-date-from">Jun</span>
+                  —
+                  <span class="section__item-date-to">Oct&nbsp;2023</span>
+                </p>
+              </div>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  IT QA Specialist Intern ∙ My Amazon Guy
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  Embarking on my professional journey as an intern at My Amazon Guy, I am immersed in the world of
+                  quality assurance and technological excellence. I am gaining hands-on experience with low-code and
+                  no-code development platforms, which are the backbone of our department's system development efforts. My
+                  role involves active participation in upholding our systems to the highest company and IT industry
+                  standards.
+                </p>
+              </div>
+            </li>
+          </a>
+        </ul>
         
-        <section id="copyright">
-            <p class="copyright">&copy; <a href="https://daniellabrador.com">Thony Danielle Labrador</a> 2024. All Rights Reserved.</p>
-            <div class="social">
-    
-                <a href="https://linkedin.com/in/danlabrador">
-                    <div class="social-icon">
-                        <i class="fab fa-linkedin-in"></i>
-                    </div>
-                </a>
-    
-                <a href="https://github.com/danlabrador">
-                    <div class="social-icon">
-                        <i class="fab fa-github"></i>
-                    </div>
-                </a>
+        <a href="https://drive.google.com/file/d/1-AZKlMc06AQ_3Tle9Avlr8UwLQzi5zfs/view" class="section__item-more-items-link" target="_blank">
+          Download Resume
+          <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+            <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </section>
+
+      <!-- Education -->
+      <section class="section section--column" id="education">
+        <h2 class="section__heading">Education</h2>
+        <ul class="section__list">
+          <!-- Uplift Code Camp -->
+          <a href="https://www.upliftcodecamp.com/courses" target="_blank" class="section__item-link">
+            <li class="section__item">
+              <div class="section__item-date-container">
+                <p class="section__item-date">
+                  <span class="section__item-date-from">Jan</span>
+                  —
+                  <span class="section__item-date-to">Jun&nbsp;2024</span>
+                </p>
+              </div>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  Full-Stack Development ∙ Uplift Code Camp
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  Build full-stack applications with RESTful APIs and database integrations using MERN Stack. Develop
+                  applications using OO and MVC design patterns.
+                </p>
+              </div>
+            </li>
+          </a>
+
+          <!-- Computer Science (BSc) ∙ Ateneo de Davao University -->
+          <a href="https://www.addu.edu.ph/computer-science/" target="_blank" class="section__item-link">
+            <li class="section__item">
+              <div class="section__item-date-container">
+                <p class="section__item-date">
+                  <span class="section__item-date-from">2022</span>
+                  —
+                  <span class="section__item-date-to">2026</span>
+                </p>
+              </div>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  Computer Science (BSc) ∙ Ateneo de Davao University
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  Data Structures and Algorithms • Object-Oriented Programming • Event-Driven Programming •
+                  Information Management • Software Engineering 1 • Applications Development and Emerging Technologies •
+                  Introduction to Computing • Computer Programming • Discrete Structures • Basic Electronics •
+                  College Trigonometry • Calculus I • Calculus II • Linear Algebra • Probability and Statistics
+                </p>
+              </div>
+            </li>
+          </a>
+      </section>
+
+      <!-- Articles -->
+      <section class="section section--column" id="articles">
+        <h2 class="section__heading">Articles</h2>
+        
+        <ul class="section__list">
+
+          <!-- How to Manually Test Low-Code / No-Code Systems -->
+          <a href="https://danlabrador.notion.site/How-to-Do-End-to-End-QA-Testing-on-MAG-IT-System-SOP-e64c94421d824790aaf53f66bc09905b?pvs=74" target="_blank" class="section__item-link">
+            <li class="section__item section__item--reverse">
+              <div class="section__item-thumbnail-container">
+                <img class="section__item-thumbnail" src="./src/images/index/articles-manual-software-testing.jpg" alt="a guy interacting floating objects and a text that writes 'Sowtware Testing'" class="section__item-thumbnail">
+              </div>
+              <div class="section__item-content">
+                <h3 class="section__item-title section__item-title--small">
+                  How to Manually Test Low-Code / No-Code Systems
+                  <svg class="section__link-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true">
+                    <path class="section__link-arrow-path" fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
+                  </svg>
+                </h3>
+                <p class="section__description">
+                  In My Amazon Guy, our IT infrastructure is diverse and integrated in nature. They primarily revolves around
+                  platforms such as Zapier, HubSpot, Slack, and Asana. I wanna share how our team efficiently navigating the
+                  complexities of our QA processes inherent in our systems.
+                </p>
+              </div>
+            </li>
+          </a>
+      </section>
+
+      <!-- Contact -->
+      <section class="section section--column" id="contact">
+        <h2 class="section__heading">Contact</h2>
+        <form class="section__form">
+          <div class="input">
+            <input type="text" class="input__field" value="" required/>
+            <label class="input__label">Full name</label>
+          </div>
+          <div class="input">
+            <input type="text" class="input__field" value="" required/>
+            <label class="input__label">Email</label>
+          </div>
+          <div class="input">
+            <textarea class="input__field input__field--textarea" required></textarea>
+            <label class="input__label">Message</label>
+          </div>
+
+          <div class="section__form-buttons">  
+            <div class="action">
+              <button class="action__button">Send</button>
             </div>
-        </section>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="./src/js/skills.js"></script>
-    <script src="./src/js/templates.js"></script>
+            <div class="action">
+              <a href="mailto:hi@daniellabrador.com"><button class="action__button">Open Email Client</button></a>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <p class="footer__text">
+          Made with ❤️ during Uplift Code Camp. Built with pure HTML and CSS, deployed with GitHub Pages.
+          ©&nbsp;2024&nbsp;Thony&nbsp;Danielle&nbsp;Labrador
+        </p>
+      </footer>
+    </main>
+  </div>
 </body>
 </html>
