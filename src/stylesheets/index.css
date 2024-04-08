@@ -387,10 +387,6 @@ html {
   width: 8em;
 }
 
-.section__item-thumbnail-container {
-  width: 10em;
-}
-
 .section__item-thumbnail {
   width: 100%;
 }
@@ -461,6 +457,7 @@ html {
   justify-content: center;
   overflow: hidden;
   position: relative;
+  width: 10em;
 }
 
 .section__item-date {
