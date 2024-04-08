@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Info -->
+    <title>
+      Dan Labrador | How to Manually Test Low-Code / No-Code Systems
+    </title>
+    <meta name="author" content="Dan Labrador" />
+    <meta
+      name="keywords"
+      content="manual testing,low-code,no-code,low code,no code,automations,qa,quality assurance,testing,software testing"
+    />
+    <meta
+      name="description"
+      content="Explore the comprehensive guide to manual testing at My Amazon Guy. Ideal for QA specialists and IT professionals, it highlights best practices, strategies, and tips for effective manual testing in a structured, step-by-step approach."
+    />
+
+    <!-- Icons and App Name -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./src/images/logo/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/logo/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./src/images/logo/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./src/images/logo/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./src/images/logo/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="./src/images/logo/favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="Dan's Portfolio" />
+    <meta name="application-name" content="Dan's Portfolio" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="./src/images/logo/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./src/stylesheets/reset.css" />
+    <link rel="stylesheet" href="./src/stylesheets/blog.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="./index.html">
+            <img
+              src="./src/images/logo/logo-light.svg"
+              alt="Dan's Portfolio"
+              class="nav__logo-img"
+            />
+          </a>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="./index.html#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="./index.html#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main">
+        <header class="header">
+          <h1 class="header__title">
+            Building a Playlist Manager with Vanilla JavaScript & Tailwind CSS
+          </h1>
+          <div class="entry-meta">
+            <p class="entry-meta__author-name">
+              Written by
+              <a
+                href="https://daniellabrador.com"
+                class="entry-meta__author-link"
+                >Dan Labrador</a
+              >
+            </p>
+            <img
+              src="./src/images/blog/author__dan-labrador.jpg"
+              alt="Author's profile picture"
+              class="entry-meta__profile-image"
+            />
+            <p class="entry-meta__date">Last Updated: April 7, 2024</p>
+          </div>
+          <img
+            src="./src/images/blog/js-api-app.jpg"
+            alt="Playlist Manager Interface"
+            class="entry-meta__featured-image"
+          />
+        </header>
+
+        <article class="article">
+          <p class="article__intro">
+            This past weekend, I took on the challenge of building a Playlist
+            Manager application that integrates with Spotify, armed with nothing
+            but vanilla JavaScript, HTML, CSS, and a touch of Tailwind CSS.
+            Juggling university classes and work, I embarked on this coding
+            adventure, part of my Full Stack Web Development course at Uplift
+            Code Camp.
+          </p>
+
+          <section class="article__section">
+            <h2 class="article__section-title">The Challenge</h2>
+            <ul class="article__list">
+              <li>
+                Build a fully functional web app for managing Spotify playlists.
+              </li>
+              <li>Use only vanilla JavaScript, HTML, and CSS.</li>
+              <li>Incorporate Tailwind CSS for styling.</li>
+            </ul>
+          </section>
+
+          <section class="article__section">
+            <h2 class="article__section-title">The Pre-Design Dilemma</h2>
+            <p class="article__paragraph">
+              Before diving into the code, I hit a crossroad: should I spend
+              precious time designing the app in Figma, or jump straight into
+              development? With just one weekend to bring this project to life,
+              amidst a busy schedule filled with university and work
+              commitments, I was hesitant. But, deciding to lay a solid
+              foundation, I took to Figma, sketching out my vision for the app.
+            </p>
+            <p class="article__paragraph">
+              This decision turned out to be a game-changer. Designing first
+              helped crystallize my ideas, allowing me to visualize the end
+              product. It streamlined the development process, as I had a clear
+              blueprint to follow. With the design in place, exporting assets in
+              the correct sizes and making design decisions became a breeze,
+              eliminating guesswork and speeding up development.
+            </p>
+          </section>
+
+          <section class="article__section">
+            <h2 class="article__section-title">The Adventure Begins</h2>
+            <p class="article__paragraph">
+              The development kicked off with constructing the `SpotifyAPI`
+              class, my bridge to Spotify. Then, the `PlaylistManager` class,
+              dealing with recommendations, playlist staging, and integration
+              with Spotify. For the UI, I combined HTML and Tailwind CSS for a
+              clean, efficient design process.
+            </p>
+          </section>
+
+          <section class="article__section">
+            <h2 class="article__section-title">Overcoming Challenges</h2>
+            <ul class="article__list">
+              <li>
+                State Management and UI Updates required a deeper understanding
+                of vanilla JavaScript.
+              </li>
+              <li>
+                API Rate Limits and Error Handling needed careful strategy to
+                keep the user experience smooth.
+              </li>
+              <li>
+                Tailwind CSS was a breeze for applying styles, proving its worth
+                in streamlining the design process.
+              </li>
+            </ul>
+          </section>
+
+          <section class="article__section">
+            <h2 class="article__section-title">Confronting OAuth</h2>
+            <p class="article__paragraph">
+              The integration of Spotify into my project necessitated navigating
+              the OAuth authentication process, a critical step for accessing
+              Spotify's API securely. Without prior classroom discussion on
+              OAuth, I relied entirely on my diligence in reading and
+              deciphering Spotify's extensive documentation.
+            </p>
+            <p class="article__paragraph">
+              Implementing OAuth was like solving a puzzle with pieces from
+              different boxes. I had to understand the authentication flow
+              thoroughly—from obtaining tokens and refreshing them to securing
+              user sessions—each step meticulously followed to ensure a secure
+              and functional application.
+            </p>
+          </section>
+
+          <section class="article__section">
+            <h2 class="article__section-title">
+              Future Beats: Enhancements Ahead
+            </h2>
+            <ul class="article__list">
+              <li>Code Refactoring for better readability and maintenance.</li>
+              <li>Smarter State Management for smoother UI interactions.</li>
+              <li>
+                User Experience improvements using Tailwind for interactive
+                elements.
+              </li>
+              <li>
+                Performance Optimizations for a smoother experience across
+                devices.
+              </li>
+            </ul>
+          </section>
+
+          <section class="article__section">
+            <h2 class="article__section-title">The Tailwind Touch</h2>
+            <p class="article__paragraph">
+              Tailwind CSS was a revelation, allowing for quick, in-the-moment
+              styling that kept the pace of development up and made responsive
+              design effortless.
+            </p>
+          </section>
+
+          <section class="article__section">
+            <h2 class="article__section-title">Final Thoughts</h2>
+            <p class="article__paragraph">
+              Reflecting on this whirlwind weekend, diving into the project with
+              a solid design plan in hand was immensely rewarding. The blend of
+              vanilla technologies and Tailwind CSS, paired with a
+              well-thought-out design from Figma, made building the Playlist
+              Manager not just feasible, but enjoyable. It reinforced the power
+              of preparation and the impact of visual planning on coding
+              efficiency. Check out the app here:
+              <a href="https://aurorabeats.netlify.app" target="_blank"
+                >Aurora Beats</a
+              >.
+            </p>
+            <p class="article__paragraph">
+              Here’s to more adventures in coding and design, proving that with
+              a clear vision and the right tools, anything is possible, even on
+              the tightest of schedules. Cheers to the future of building more
+              with less! 🎉🎵
+            </p>
+          </section>
+        </article>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__text">
+          Made with ❤️ during Uplift Code Camp. Built with pure HTML and CSS,
+          deployed with GitHub Pages.
+          ©&nbsp;2024&nbsp;Thony&nbsp;Danielle&nbsp;Labrador
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
