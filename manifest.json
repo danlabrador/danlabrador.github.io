@@ -24,9 +24,9 @@
       "type": "image/png"
     },
     {
-      "src": "/src/images/logo/favicon-32x32.ico",
+      "src": "/src/images/logo/favicon-32x32.png",
       "sizes": "32x32",
-      "type": "image/icon"
+      "type": "image/png"
     },
     {
       "src": "/src/images/logo/favicon-16x16.png",
@@ -35,7 +35,7 @@
     }
   ],
   "start_url": "/index.html",
-  "background_color": "#000000",
+  "background_color": "#333333",
   "display": "standalone",
-  "theme_color": "#ff0000"
+  "theme_color": "#ff8b00"
 }
