@@ -1,6 +1,7 @@
 {
   "short_name": "Dan Labrador",
   "name": "Dan Labrador - Full-Stack Engineer",
+  "description": "Dan Labrador is a Full-Stack Engineer with a passion for creating beautiful and functional web applications.",
   "icons": [
     {
       "src": "/src/images/logo/maskable-1024.png",
