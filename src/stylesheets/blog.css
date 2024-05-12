@@ -334,3 +334,24 @@ html {
     width: 100%;
   }
 }
+
+.article__code-block {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  white-space: pre-wrap; /* Since <pre> elements have a default 'white-space: pre', this is used to allow line breaks */
+}
+
+.article__code-block code {
+  color: #333;
+}
+
+.article__paragraph code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
