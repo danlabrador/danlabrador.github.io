@@ -269,6 +269,21 @@ html {
   margin-top: 1.5em;
 }
 
+.section__description--highlight {
+  color: var(--dark-10);
+}
+
+.section__list {
+  list-style: disc;
+  margin-left: 1em;
+}
+
+.section__list-item {
+  color: var(--dark-faded-30);
+  font-size: var(--paragraph-font-size);
+  line-height: var(--paragraph-line-height);
+}
+
 .section__tags {
   display: flex;
   flex-flow: row wrap;
