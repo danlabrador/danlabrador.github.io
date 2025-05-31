@@ -1,0 +1,27 @@
+{
+  "name": "Dan Labrador - Analytics Engineer Portfolio",
+  "short_name": "Dan's Portfolio",
+  "description": "Dan Labrador is an Analytics Engineer specializing in Python and SQL-driven ETL pipelines. Portfolio showcasing data engineering projects and technical expertise.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#ff9900",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
