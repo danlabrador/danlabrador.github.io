@@ -95,7 +95,7 @@ export default function Education() {
                 {item.details && (
                   <>
                     <br />
-                    <ul className="section__list">
+                    <ul className="section__list section__list--bulleted">
                       {item.details.map((detail, detailIndex) => (
                         <li key={detailIndex} className="section__list-item">
                           <strong>{detail.category}</strong>

@@ -322,6 +322,11 @@ html {
   color: var(--dark-inactive-30);
 }
 
+.nav__list {
+  list-style: none !important;
+  margin-left: 0 !important;
+}
+
 .socials__list {
   display: flex;
   gap: 1.25em;
@@ -400,8 +405,30 @@ html {
 }
 
 .section__list {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5em;
+  position: relative;
+  list-style: none;
+  margin-left: 0;
+}
+
+.section__list:hover > .section__item-link,
+.section__list:hover > .section__item {
+  opacity: 40%;
+  transition: opacity 0.25s;
+}
+
+.section__item-link:hover,
+.section__item:hover {
+  opacity: 100% !important;
+  transition: opacity 0.25s;
+}
+
+.section__list--bulleted {
   list-style: disc;
-  margin-left: 1em;
+  margin-left: 1.5em;
+  display: block;
 }
 
 .section__list-item {
@@ -441,25 +468,6 @@ html {
 .section__link:hover {
   color: var(--dark-10);
   transition: color 0.2s;
-}
-
-.section__list {
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 0.5em;
-  position: relative;
-}
-
-.section__list:hover > .section__item-link,
-.section__list:hover > .section__item {
-  opacity: 40%;
-  transition: opacity 0.25s;
-}
-
-.section__item-link:hover,
-.section__item:hover {
-  opacity: 100% !important;
-  transition: opacity 0.25s;
 }
 
 .section__item-link {
@@ -1007,6 +1015,7 @@ html {
   list-style: disc;
   margin-left: 1.5em;
   margin-bottom: 1.5em;
+  display: block;
 }
 
 .blog-article__ordered-list {
@@ -1014,6 +1023,7 @@ html {
   list-style: decimal;
   margin-left: 1.5em;
   margin-bottom: 1.5em;
+  display: block;
 }
 
 .blog-article__link {
@@ -1073,5 +1083,13 @@ html {
     text-align: center;
     width: 100%;
   }
+}
+
+/* Ensure navigation and social lists never have bullets */
+.nav__list,
+.socials__list,
+.blog-nav__list {
+  list-style: none !important;
+  margin-left: 0 !important;
 }
 
