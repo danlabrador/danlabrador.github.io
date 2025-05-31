@@ -230,6 +230,29 @@ html {
   font-weight: var(--h1-font-weight);
 }
 
+.hero__title--shine {
+  background: linear-gradient(
+    110deg,
+    var(--dark-30) 33%,
+    var(--dark-10) 50%,
+    var(--dark-30) 66%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
 .hero__subtitle {
   font-family: var(--subtitle-font-family);
   font-size: var(--subtitle-font-size);
