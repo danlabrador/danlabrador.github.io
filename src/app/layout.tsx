@@ -42,6 +42,16 @@ export const metadata: Metadata = {
     "Data Governance",
     "GDPR Compliance",
   ],
+  openGraph: {
+    title: "Dan Labrador | Analytics Engineer",
+    description:
+      "Analytics Engineer specializing in Python and SQL-driven ETL pipelines. Transforming raw data into reliable, real-time insights.",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   icons: {
     icon: [
       {
@@ -54,7 +64,6 @@ export const metadata: Metadata = {
         sizes: "32x32",
         type: "image/png",
       },
-      { url: "/src/images/logo/favicon.ico" },
     ],
     apple: [
       {
@@ -63,6 +72,7 @@ export const metadata: Metadata = {
         type: "image/png",
       },
     ],
+    shortcut: "/src/images/logo/favicon.ico",
   },
   manifest: "/manifest.json",
   other: {
@@ -75,9 +85,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <head>
@@ -85,10 +95,17 @@ export default function RootLayout({
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin=""
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap"
+          rel="stylesheet"
         />
       </head>
-      <body className={`${inter.variable} ${figtree.variable} body`}>
+      <body
+        className={`${inter.variable} ${figtree.variable} body`}
+        suppressHydrationWarning={true}
+      >
         {children}
       </body>
     </html>
