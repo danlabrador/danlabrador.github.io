@@ -8,10 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "accent-orange": "#ff9900",
+        "accent-orange-transparent": "#ff8c001c",
+        "accent-orange-select": "#472e00",
+        "background-left": "#0f172a",
+        "background-right": "#0f1e47",
+      },
+      fontFamily: {
+        figtree: ["Figtree", "Helvetica", "sans-serif"],
+        inter: ["Inter", "Figtree", "Helvetica", "sans-serif"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
