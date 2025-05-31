@@ -6,15 +6,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/blog/js-api-app/page": [
+    "/blog/organizing-react/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blog/js-api-app/page.js"
+      "static/chunks/app/blog/organizing-react/page.js"
     ],
-    "/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }

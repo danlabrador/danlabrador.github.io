@@ -1,4 +1,4 @@
 {
-  "/blog/js-api-app/page": "app/blog/js-api-app/page.js",
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/blog/organizing-react/page": "app/blog/organizing-react/page.js"
 }

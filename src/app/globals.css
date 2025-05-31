@@ -919,12 +919,24 @@ html {
   display: block;
 }
 
+.blog-article__list li {
+  color: #374151; /* Ensure list items have dark text */
+  margin-bottom: 0.5em;
+  line-height: 1.6em;
+}
+
 .blog-article__ordered-list {
   color: #374151; /* Darker gray for better ordered list readability */
   list-style: decimal;
   margin-left: 1.5em;
   margin-bottom: 1.5em;
   display: block;
+}
+
+.blog-article__ordered-list li {
+  color: #374151; /* Ensure ordered list items have dark text */
+  margin-bottom: 0.5em;
+  line-height: 1.6em;
 }
 
 .blog-article__link {
