@@ -3,7 +3,7 @@ export default function Projects() {
     {
       title: "API Request Throttlers",
       link: "https://github.com/danlabrador/myamazonguy-api-request-throttlers",
-      image: "./src/images/index/projects-api-request-throttlers.jpg",
+      image: "/images/index/projects-api-request-throttlers.jpg",
       description:
         "Dynamic concurrency & rate-limit library; adopted in 30+ SaaS pipelines and handles > 5M requests/month without SLA breaches.",
       tags: ["Python", "Inheritance", "Rate Limits"],
@@ -11,7 +11,7 @@ export default function Projects() {
     {
       title: "Finance-Cron Invoice Ninja Pipeline",
       link: "https://github.com/danlabrador/finance-cron-invoice_ninja_pipeline",
-      image: "./src/images/index/projects-python-invoice-ninja-pipeline.jpg",
+      image: "/images/index/projects-python-invoice-ninja-pipeline.jpg",
       description:
         "Render job syncing Invoice Ninja billing data to BigQuery nightly, powering profit-margin and cash-flow dashboards and eliminating manual exports.",
       tags: ["Data Pipelines", "Python", "BigQuery", "Render"],
@@ -19,7 +19,7 @@ export default function Projects() {
     {
       title: "Asana Data Modeling",
       link: "https://github.com/danlabrador/reports-cron-asana_data_modelling",
-      image: "./src/images/index/projects-sql-asana-data-modelling.jpg",
+      image: "/images/index/projects-sql-asana-data-modelling.jpg",
       description:
         "SQL models on a Synchub.io-managed Asana dataset powering sprint burndown & workload dashboards for 80+ stakeholders, cutting status-prep 6h/week.",
       tags: ["Data Pipelines", "Data Modeling", "SQL", "Python", "BigQuery"],
@@ -27,7 +27,7 @@ export default function Projects() {
     {
       title: "Credence",
       link: "https://credence-uplift-project.netlify.app/",
-      image: "./src/images/index/projects-credence.jpg",
+      image: "/images/index/projects-credence.jpg",
       description:
         "Credence is a full-stack application built for organizations to issue, store, and verify digital certificates. It is a project that I made with a team of 4 developers. I was responsible for the project management, code review and quality assurance.",
       tags: [
@@ -43,7 +43,7 @@ export default function Projects() {
     {
       title: "School of Leaders Portal",
       link: "https://schoolofleaders.netlify.app",
-      image: "./src/images/index/projects-lighthouse.jpg",
+      image: "/images/index/projects-lighthouse.jpg",
       description:
         "A front-end project that I made for our local church. It is a Student Information System that allows the church to manage the students' information and grades. This project is still in progress and will be hooked to a backend system.",
       tags: ["React", "shadcn/ui", "Tailwind CSS", "Google Identity API"],
@@ -51,7 +51,7 @@ export default function Projects() {
     {
       title: "AuroraBeats Playlist Manager",
       link: "https://danlabrador.com/js-api-app.html",
-      image: "./src/images/index/projects-aurorabeats.jpg",
+      image: "/images/index/projects-aurorabeats.jpg",
       description:
         "A culmination of a weekend's worth of learning and coding, the AuroraBeats Playlist Manager is my solo project that interfaces with Spotify to manage playlists. It showcases my journey through OAuth, design in Figma, and development with vanilla JavaScript and Tailwind CSS.",
       tags: [
@@ -65,7 +65,7 @@ export default function Projects() {
     {
       title: "daniellabrador.com (v1)",
       link: "https://v1.daniellabrador.com",
-      image: "./src/images/index/projects-daniellabrador.com-v1.jpg",
+      image: "/images/index/projects-daniellabrador.com-v1.jpg",
       description:
         "This was my first attempt at creating a personal website that was made last 2021.",
       tags: ["HTML", "SCSS", "JavaScript"],

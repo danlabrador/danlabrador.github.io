@@ -21,7 +21,7 @@ export default function JSAPIAppPage() {
     <BlogLayout
       title="Building a Playlist Manager with Vanilla JavaScript & Tailwind CSS"
       lastUpdated="April 7, 2024"
-      featuredImage="/src/images/blog/js-api-app.jpg"
+      featuredImage="/images/blog/js-api-app.jpg"
       featuredImageAlt="Playlist Manager Interface"
     >
       <p className="blog-article__intro">

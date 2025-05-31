@@ -20,7 +20,7 @@ export default function OrganizingReactPage() {
     <BlogLayout
       title="What I Learned After Deleting Tons of React Files"
       lastUpdated="May 12, 2024"
-      featuredImage="/src/images/blog/react-rock.png"
+      featuredImage="/images/blog/react-rock.png"
       featuredImageAlt="Image of the react logo over a rock"
     >
       <p className="blog-article__intro">

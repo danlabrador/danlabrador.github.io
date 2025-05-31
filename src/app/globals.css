@@ -744,6 +744,10 @@ html {
   padding: 0 3rem;
   max-width: 46rem;
   display: block;
+  /* Ensure no shine effect on blog titles */
+  background: none !important;
+  -webkit-text-fill-color: var(--dark-30-white) !important;
+  animation: none !important;
 }
 
 @media only screen and (max-width: 768px) {

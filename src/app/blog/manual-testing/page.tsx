@@ -22,7 +22,7 @@ export default function ManualTestingPage() {
     <BlogLayout
       title="How to Manually Test Low-Code / No-Code Systems"
       lastUpdated="February 23, 2024"
-      featuredImage="/src/images/blog/manual-testing.jpg"
+      featuredImage="/images/blog/manual-testing.jpg"
       featuredImageAlt="two software engineers concentrating on a problem"
     >
       <p className="blog-article__intro">

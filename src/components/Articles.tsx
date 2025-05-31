@@ -5,7 +5,7 @@ export default function Articles() {
     {
       title: "How to Manually Test Low-Code / No-Code Systems",
       link: "/blog/manual-testing",
-      image: "/src/images/blog/manual-testing.jpg",
+      image: "/images/blog/manual-testing.jpg",
       alt: "a guy interacting floating objects and a text that writes 'Software Testing'",
       description:
         "In My Amazon Guy, our IT infrastructure is diverse and integrated in nature. They primarily revolves around platforms such as Zapier, HubSpot, Slack, and Asana. I wanna share how our team efficiently navigating the complexities of our QA processes inherent in our systems.",
@@ -15,7 +15,7 @@ export default function Articles() {
       title:
         "Building a Playlist Manager with Vanilla JavaScript & Tailwind CSS",
       link: "/blog/js-api-app",
-      image: "/src/images/blog/js-api-app.jpg",
+      image: "/images/blog/js-api-app.jpg",
       alt: "A Developer's Journey Through Code, Design, and OAuth Challenges",
       description:
         "Over one weekend, amidst university and work, I embarked on building a Playlist Manager app with Spotify. Facing the unexpected OAuth challenge without prior instruction, my journey through extensive documentation and design foresight became a testament to self-reliance and the importance of pre-planning.",
@@ -24,7 +24,7 @@ export default function Articles() {
     {
       title: "What I Learned After Deleting Tons of React Files",
       link: "/blog/organizing-react",
-      image: "/src/images/blog/react-rock.png",
+      image: "/images/blog/react-rock.png",
       alt: "Image of the react logo over a rock",
       description:
         "Explore how I streamlined my React development workflow with essential tips for beginners. From organizing folder structures to leveraging external libraries, discover practical strategies to boost productivity and enhance React skills.",

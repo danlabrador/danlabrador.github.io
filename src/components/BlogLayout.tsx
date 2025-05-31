@@ -25,7 +25,7 @@ export default function BlogLayout({
         <div className="blog-nav__logo">
           <Link href="/">
             <img
-              src="/src/images/logo/logo-light.svg"
+              src="/images/logo/logo-light.svg"
               alt="Dan's Portfolio"
               className="blog-nav__logo-img"
             />
@@ -66,7 +66,7 @@ export default function BlogLayout({
               </a>
             </p>
             <img
-              src="/src/images/blog/author__dan-labrador.jpg"
+              src="/images/blog/author__dan-labrador.jpg"
               alt="Author's profile picture"
               className="blog-entry-meta__profile-image"
             />

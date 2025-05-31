@@ -9,7 +9,7 @@ export default function Skills() {
           <div className="section__item-icon-container">
             <img
               className="section__item-icon"
-              src="./src/images/index/skills-stack-dark.png"
+              src="/images/index/skills-stack-dark.png"
               alt="data analytics icon"
             />
           </div>
@@ -21,7 +21,9 @@ export default function Skills() {
               Daily driver in <span className="section__link">Python</span>{" "}
               (pandas) and <span className="section__link">SQL</span>
               &nbsp;(BigQuery Standard CTEs); comfortable with{" "}
-              <span className="section__link">JavaScript &amp; TypeScript</span>{" "}
+              <span className="section__link">
+                JavaScript &amp; TypeScript
+              </span>{" "}
               for front-end tweaks and Google App Script automation. Build
               end-to-end ELT pipelines and test-driven data models that convert
               raw logs into trusted metrics.
@@ -34,7 +36,7 @@ export default function Skills() {
           <div className="section__item-icon-container">
             <img
               className="section__item-icon"
-              src="./src/images/index/skills-test-dark.png"
+              src="/images/index/skills-test-dark.png"
               alt="report automation icon"
             />
           </div>
@@ -62,7 +64,7 @@ export default function Skills() {
           <div className="section__item-icon-container">
             <img
               className="section__item-icon"
-              src="./src/images/index/skills-structures-dark.png"
+              src="/images/index/skills-structures-dark.png"
               alt="cloud & DevOps icon"
             />
           </div>
@@ -86,7 +88,7 @@ export default function Skills() {
           <div className="section__item-icon-container">
             <img
               className="section__item-icon"
-              src="./src/images/index/skills-git-dark.png"
+              src="/images/index/skills-git-dark.png"
               alt="git icon"
             />
           </div>
